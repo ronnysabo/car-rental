@@ -255,6 +255,7 @@ function CarBook() {
       </section>
 
       <Modal
+        scrollable={false}
         className="d-flex justify-content-center align-items-center"
         show={showModal}
         onHide={handleCloseModal}
