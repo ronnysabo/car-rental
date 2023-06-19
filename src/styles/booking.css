@@ -1,0 +1,14 @@
+/* .box-form {
+  display: grid;
+  grid-gap: 2rem;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+} */
+
+.book-content-box {
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  /* background-image: url(../images/bg-balls.png);
+  background-size: cover; */
+}

@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 2.1rem;
+  margin: 0;
+  padding-bottom: 0;
+}
+.logo h4 {
+  color: black;
+}
+.logo h4:hover {
+  color: #0d6efd;
+}
+li a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+.router-links {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+}
