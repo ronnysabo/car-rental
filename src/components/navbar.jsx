@@ -50,9 +50,6 @@ function NavbarComponent() {
             <Nav.Link className="text-primary" as={NavLink} to="/Ourteam">
               Our Team
             </Nav.Link>
-            <Nav.Link className="text-primary" as={NavLink} to="/Contact">
-              Contact
-            </Nav.Link>
             <Nav.Link className="text-primary">
               <Button>Login</Button>
             </Nav.Link>
