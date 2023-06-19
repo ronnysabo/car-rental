@@ -12,7 +12,7 @@ function Hero() {
           style={{ maxWidth: "100%", height: "70vh" }}
         >
           <img
-            className="bg-pic position-absolute end-0 top-0"
+            className="position-absolute end-0 top-0 img-fluid"
             style={{ zIndex: "-2" }}
             src={bgBlue}
             alt="hej"
