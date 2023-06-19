@@ -10,7 +10,6 @@ function Faq() {
           backgroundImage: `url(${bmgBg})`,
           backgroundSize: "auto",
           backgroundRepeat: "no-repeat",
-          height: "75vh",
         }}
       >
         <div className="container bg-none">
@@ -20,7 +19,6 @@ function Faq() {
               <h1>
                 <span className="text-primary">Frequently</span> Asked Questions
               </h1>
-              <p>Lorem Ipsum dolor</p>
             </div>
             <div className="container d-flex justify-content-around mt-5">
               <div className="faq-questions w-50 justify-content-center d-flex flex-column">
