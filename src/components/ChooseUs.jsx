@@ -21,7 +21,7 @@ function ChooseUs() {
               <div className="text-container-left mb-5 text-lg-start text-center">
                 <h4 className="mb-3">Why us?</h4>
                 <img
-                  className="bg-pic position-absolute end-40 top-200"
+                  className="bg-pic position-absolute end-50 top-200 img-fluid"
                   style={{ zIndex: "-2" }}
                   src={tireTrail}
                   alt="hej"
@@ -101,6 +101,13 @@ function ChooseUs() {
           </div>
         </div>
       </section>
+      <style>{`
+        @media (max-width: 1200px) {
+          .bg-pic {
+            display: none;
+          }
+        }
+      `}</style>
     </>
   );
 }
