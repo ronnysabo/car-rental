@@ -258,6 +258,7 @@ function CarBook() {
         className="d-flex justify-content-center align-items-center"
         show={showModal}
         onHide={handleCloseModal}
+        size="lg" // Lägg till storleksattributet för att styra modalens storlek
       >
         <Modal.Header closeButton>
           <Modal.Title>{carType}</Modal.Title>
@@ -266,25 +267,26 @@ function CarBook() {
           Please check the information carefully before you confirm your
           booking.
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="d-flex flex-column align-items-center">
+          {" "}
+          {/* Använd flexbox för att centrera innehållet */}
           {imgUrl && (
             <img
               src={imgUrl}
               alt="car_img"
-              style={{ width: "450px", height: "300px" }}
+              className="img-fluid mb-4" // Lägg till img-fluid för att göra bilden responsiv
+              style={{ maxWidth: "100%", height: "auto" }} // Använd maxWidth för att anpassa bilden inom modalen
             />
           )}
-        </Modal.Body>
-        <Modal.Body>
-          <div className="d-flex gap-4">
+          <div className="d-flex flex-column gap-4 w-100">
+            {" "}
+            {/* Använd flexbox för att skapa en kolumnlayout */}
             <div>
               <span>Pick up city:</span> <strong>{pickUp}</strong>
             </div>
             <div>
               <span>Drop off city:</span> <strong>{dropOff}</strong>
             </div>
-          </div>
-          <div className="d-flex gap-4">
             <div>
               <span>Pick up date:</span> <strong>{pickUpDate}</strong>
             </div>
