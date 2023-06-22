@@ -276,7 +276,11 @@ function CarBook() {
               src={imgUrl}
               alt="car_img"
               className="img-fluid mb-4" // Lägg till img-fluid för att göra bilden responsiv
-              style={{ maxWidth: "100%", height: "auto" }} // Använd maxWidth för att anpassa bilden inom modalen
+              style={{
+                maxWidth: "100%",
+                height: "200px",
+                objectFit: "contain",
+              }} // Använd maxWidth för att anpassa bilden inom modalen
             />
           )}
           <div className="d-flex flex-column gap-4 w-100">
