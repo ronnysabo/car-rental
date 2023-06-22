@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Car Rental Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Product Name Screen Shot][product-screenshot]](https://car-rental-application.netlify.app/)
 
-## Available Scripts
+### Live demo 💥: <a href="https://car-rental-application.netlify.app/">View Demo</a>
 
-In the project directory, you can run:
+# Built With
 
-### `npm start`
+- [![React][React.js]][React-url]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### Easy Car Rental
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Renting a car has never been easier. Our website allows you to browse through a wide selection of vehicles, from compact cars to spacious SUVs, and choose the one that suits your needs. With just a few clicks, you can reserve your preferred car and get ready for your journey.
 
-### `npm run build`
+### Simple Interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We believe in simplicity and clarity. Our interface is designed to be clean and straightforward, making it easy for users to navigate and find the information they need. The intuitive layout ensures that you can quickly locate available cars, check their specifications, and compare prices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Smooth Booking Process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Our booking process is hassle-free. Once you've selected your desired car, simply enter your pickup and drop-off locations, along with the dates and times. Our system will provide you with accurate pricing information and available options. Confirm your booking, and you're all set!
 
-### `npm run eject`
+### Responsive Design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We understand the importance of accessibility across devices. Our website is fully responsive, ensuring a seamless experience whether you're browsing from a desktop, laptop, tablet, or smartphone. You can make reservations and manage your bookings on the go, without any limitations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contact Us
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We're here to assist you with any questions or concerns. If you need further information about our car rental services or encounter any issues while using our website, please don't hesitate to reach out to our friendly customer support team. We're dedicated to providing excellent service and ensuring your satisfaction.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- MARKDOWN LINKS & IMAGES -->
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot]: src/images/bg-car-rental.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Bootstrap-url]: https://getbootstrap.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
