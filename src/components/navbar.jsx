@@ -48,7 +48,7 @@ function NavbarComponent() {
               Testimonials
             </Nav.Link>
             <Nav.Link className="text-primary" as={NavLink} to="/Ourteam">
-              Our Team
+              Our Teamsss
             </Nav.Link>
             <Nav.Link className="text-primary">
               <Button>Login</Button>

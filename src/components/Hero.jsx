@@ -8,7 +8,7 @@ function Hero() {
         style={{ width: "90%", fontSize: "1.5rem" }}
       >
         <section
-          className="hero p-5 mx-auto mt-5 d-flex justify-content-center"
+          className="hero p-5 mx-auto mt-5 d-flex justify-content-center align-items-center"
           style={{ maxWidth: "100%", height: "70vh" }}
         >
           <img
@@ -17,8 +17,11 @@ function Hero() {
             src={bgBlue}
             alt="hej"
           ></img>
-          <div className="hero-content d-flex position-relative gap-5">
-            <div className="hero-text w-auto" style={{ zIndex: "3" }}>
+          <div className="hero-content d-flex position-relative gap-5 align-items-center justify-content-center">
+            <div
+              className="hero-text w-auto align-items-center"
+              style={{ zIndex: "3" }}
+            >
               <h4 className="d-flex flex-column">Ready to hit the road?</h4>
               <h1 className="fw-bold">
                 Explore with <span style={{ color: "#0d6efd" }}>ease</span> and{" "}
@@ -36,7 +39,7 @@ function Hero() {
                 </button>
               </div>
             </div>
-            <div className="hero-image position-relative d-none d-lg-block d-md-block">
+            <div className="hero-image d-none d-lg-flex d-md-none d-flex align-items-center">
               <img
                 className=" h-auto end-3 img-fluid"
                 src="https://www.freepnglogos.com/uploads/bmw-png/bmw-reviews-and-rating-motor-trend-1.png"

@@ -31,7 +31,7 @@ function Pick() {
             <strong>Class, safety, comfort</strong>
           </h2>
         </div>
-        <div className="box d-lg-flex justify-content-between py-5 my-5">
+        <div className="box d-lg-flex justify-content-between p-5 my-5">
           <div className="pick-car-buttons d-grid gap-2">
             {carData.map((car) => (
               <Button
@@ -44,12 +44,12 @@ function Pick() {
               </Button>
             ))}
           </div>
-          <div className="car-pics mb-4 mb-md-0">
+          <div className="car-pics my-4 mb-md-0">
             {(selectedCar || selectedCar === carData[0].img) && (
-              <img src={selectedCar} alt="Car" className="img-fluid" />
+              <img src={selectedCar} alt="Car" className="img-fluid py-4" />
             )}
           </div>
-          <div className="car-info">
+          <div className="car-info mt-3">
             {selectedCar && getSelectedCarData() && (
               <>
                 <div className="container">
