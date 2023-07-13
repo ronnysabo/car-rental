@@ -4,7 +4,6 @@ import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Testimonial from "./pages/Testimonial";
-
 import OurTeam from "./pages/Ourteam";
 import Contact from "./components/contact";
 

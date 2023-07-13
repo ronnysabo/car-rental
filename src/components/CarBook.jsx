@@ -124,6 +124,9 @@ function CarBook() {
             <div className="col-lg-12">
               <div className="book-content-box p-4">
                 <h2 className="mb-3">Book Car</h2>
+
+                {/* Alert & Book confirm */}
+
                 <div
                   className={`alert alert-danger ${alert ? "" : "d-none"}`}
                   role="alert"
@@ -140,6 +143,8 @@ function CarBook() {
                   <strong>{confirm}</strong>
                 </div>
 
+                {/* Form for booking car */}
+
                 <form onSubmit={handleSubmit} className="row">
                   <div className="col-md-6 col-sm-12 col-lg-4 mb-3">
                     <div>
@@ -147,6 +152,9 @@ function CarBook() {
                         <i className="fa-solid fa-car"></i> &nbsp; Select Your
                         Car Type <b>*</b>
                       </label>
+
+                      {/* Car type */}
+
                       <select
                         className="form-control"
                         name="carType"
@@ -171,9 +179,10 @@ function CarBook() {
                     <div>
                       {" "}
                       <label>
-                        <i className="fa-solid fa-car"></i> &nbsp; Pick Up{" "}
-                        <b>*</b>
+                        <i className="fa-solid fa-location-pin"></i> &nbsp; Pick
+                        Up <b>*</b>
                       </label>
+                      {/* Pick up  */}
                       <select
                         className="form-control"
                         name="pickUp"
@@ -192,9 +201,10 @@ function CarBook() {
                     <div>
                       {" "}
                       <label>
-                        <i className="fa-solid fa-car"></i> &nbsp; Drop of{" "}
+                        <i class="fa-solid fa-location-dot"></i> &nbsp; Drop of{" "}
                         <b>*</b>
                       </label>
+                      {/* drop off */}
                       <select
                         className="form-control"
                         value={dropOff}
@@ -212,9 +222,10 @@ function CarBook() {
                     <div>
                       {" "}
                       <label>
-                        <i className="fa-solid fa-car"></i> &nbsp; Select Pick
-                        Up Date <b>*</b>
+                        <i className="fa-solid fa-calendar"></i> &nbsp; Select
+                        Pick Up Date <b>*</b>
                       </label>
+                      {/* pick up date */}
                       <input
                         type="date"
                         className="form-control"
@@ -228,9 +239,10 @@ function CarBook() {
                     <div>
                       {" "}
                       <label>
-                        <i className="fa-solid fa-car"></i> &nbsp; Select Drop
-                        Off Date <b>*</b>
+                        <i className="fa-solid fa-calendar-xmark"></i> &nbsp;
+                        Select Drop Off Date <b>*</b>
                       </label>
+                      {/* drop off date */}
                       <input
                         type="date"
                         className="form-control"
