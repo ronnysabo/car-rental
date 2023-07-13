@@ -113,7 +113,7 @@ function CarBook() {
     <>
       <section
         id="booking-section"
-        className="booking-section my-3 pb-5"
+        className="booking-section my-lg-5 py-lg-5"
         style={{
           width: "100%",
           height: "100%",
